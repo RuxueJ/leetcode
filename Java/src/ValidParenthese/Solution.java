@@ -29,7 +29,7 @@ import java.util.Stack;
 //
 //   1 <= s.length <= 104
 //   s consists of parentheses only '()[]{}'.
-public class Solution {
+class Solution {
     public boolean isValid(String s) {
 
         Stack stack = new Stack<Character>();
